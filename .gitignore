@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+build/
+dist/
+.cache/
+.next/
+out/
+
+# React specific
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Vite specific
+frontend/.vite
+frontend/.DS_Store
+
+# Admin panel
+admin/.env
+admin/.next/
+admin/out/
+
+# Backend specific
+backend/.env
+backend/uploads/
+backend/temp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Optional npm cache
+.npm
+# Ignore environment files
+.env
+backend/.env
+frontend/.env
