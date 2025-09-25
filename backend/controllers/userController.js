@@ -212,14 +212,14 @@ const cancelAppointment = async (req,res) => {
     }
 }
 
-const razorpayInstance = new razorpay({
-    key_id: '',
-    key_secret : ''
-})
+// const razorpayInstance = new razorpay({
+//     key_id: '',
+//     key_secret : ''
+// })
 
-const paymentRazorpay = async (req,res) => {
+// const paymentRazorpay = async (req,res) => {
     
-}
+// }
 
 
 export {registerUser,loginUser,getProfile,updateProfile, bookAppointment , myAppointments , listAppointment , cancelAppointment}
