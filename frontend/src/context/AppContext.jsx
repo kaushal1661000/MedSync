@@ -6,7 +6,7 @@ export const AppContext = createContext();
 
 const AppContextProvider = ({ children }) => {
   const currencysymbol = "$";
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = 'https://medsync-backend-cluy.onrender.com';
   const [doctors, setDoctors] = useState([]);
   const [token, settoken] = useState(
     localStorage.getItem("token") ? localStorage.getItem("token") : false
